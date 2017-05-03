@@ -1,13 +1,12 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-	color: #e52d2d;
+    width: 80%;
+    padding: 0 2em;
+	background-color: #9db2af !important;
 }
 main {
-    width: 450px;
     margin: 0 auto;
     padding: 1em;
-    background: white;
-    border: 2px solid #e52d2d;
+    background: #9db2af;
 }
 h1 {
     margin-top: 0;
