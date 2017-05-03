@@ -11,15 +11,20 @@
         $discount_f = "$".number_format($discount, 2);
         $discount_price_f = "$".number_format($discount_price, 2);
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Discount Calculator</title>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculate Discount</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
     <main>
-        <h1>Product Discount Calculator</h1>
+        <h1>Discount Calculator</h1>
 
         <label>Description:</label>
         <span><?php echo htmlspecialchars($product_description); ?></span><br>
@@ -36,5 +41,6 @@
         <label>Final Price:</label>
         <span><?php echo $discount_price_f; ?></span><br>
     </main>
+<div class="container">
 </body>
 </html>
